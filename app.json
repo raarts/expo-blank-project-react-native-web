@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "expo-blank-project-react-native-web",
+    "description": "This project is really great.",
+    "slug": "expo-blank-project-react-native-web",
+    "privacy": "public",
+    "sdkVersion": "25.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}

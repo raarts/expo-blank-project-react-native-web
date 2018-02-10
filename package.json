@@ -1,0 +1,25 @@
+{
+  "name": "expo-blank-project-react-native-web",
+  "version": "0.1.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "dependencies": {
+    "babel-plugin-transform-imports": "^1.4.1",
+    "expo": "^25.0.0",
+    "react": "16.2.0",
+    "react-dom": "16.0.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-25.0.0.tar.gz",
+    "react-native-web": "^0.4.0",
+    "react-navigation": "^1.0.3",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server -d --config ./webpack.config.js  --inline --hot --colors --content-base public/",
+    "build": "NODE_ENV=production ./node_modules/.bin/webpack -p --config ./webpack.config.js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-plugin-react-native-web": "^0.4.0"
+  }
+}
