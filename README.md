@@ -5,9 +5,9 @@ This repo can be generated from scratch using the following procedure:
     curl -s https://gist.githubusercontent.com/raarts/8b8637a2a2a04a2ce54214554b1b3468/raw/ab08443947daee4d5202460d8ebd966ab8d25db7/create-expo-web-app > create-expo-web-app
     chmod +x create-expo-web-app
     ./create-expo-web-app myapp
-    cd ./testapp
+    cd ./myapp
 
-## Run on Expo
+## How to run on Expo
 
     exp start
 
@@ -16,7 +16,9 @@ and in another terminal:
     exp ios
 
 
-## Run on React Native Web:
+## How to run on React Native Web:
+
+in another terminal:
 
     yarn start
 
